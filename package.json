@@ -1,0 +1,15 @@
+{
+  "name": "20171108-stylelint-vs-stylefmt",
+  "version": "1.0.0",
+  "devDependencies": {
+    "stylefmt": "^6.0.0",
+    "stylelint": "^8.2.0",
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-order": "^0.7.0"
+  },
+  "scripts": {
+    "stylefmt": "stylefmt --recursive './src/**/*.scss'",
+    "stylelint": "stylelint './src/**/*.scss'",
+    "stylelintfix": "stylelint './src/**/*.scss' --fix"
+  }
+}

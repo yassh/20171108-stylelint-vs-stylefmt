@@ -1,0 +1,16 @@
+.foo{
+$font-size:16px;
+font-size:$font-size;
+margin:0px;
+$text-align:right;
+text-align:$text-align;
+color:#AABBCC;
+position:relative
+}
+.bar,.baz{
+padding:5px 5px 5px 5px;
+border:1px solid;
+&:first-child{
+border: none;
+}
+}
