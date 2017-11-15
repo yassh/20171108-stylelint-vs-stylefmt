@@ -4,6 +4,7 @@
     "stylelint-order"
   ],
   "rules": {
+    "order/order": ["dollar-variables", "declarations", "rules"],
     "order/properties-alphabetical-order": true
   }
 }
