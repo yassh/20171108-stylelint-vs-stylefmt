@@ -9,6 +9,7 @@
   },
   "scripts": {
     "stylefmt": "stylefmt --recursive './src/**/*.scss'",
+    "stylefmt+stylelintfix": "npm run stylefmt && npm run stylelintfix",
     "stylelint": "stylelint './src/**/*.scss'",
     "stylelintfix": "stylelint './src/**/*.scss' --fix"
   }
